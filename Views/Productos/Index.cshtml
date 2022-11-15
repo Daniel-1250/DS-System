@@ -1,0 +1,89 @@
+﻿@model IEnumerable<DS_System.Models.Productos>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NommbreProduc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stock)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrecioCom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrecioVen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Caducidad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaRegis)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Clasificacion.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Proveedores.NombreContacto)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NommbreProduc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Stock)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrecioCom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrecioVen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Caducidad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaRegis)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Clasificacion.Descripcion)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Proveedores.NombreContacto)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.CDBarras }) |
+                @Html.ActionLink("Details", "Details", new { id=item.CDBarras }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.CDBarras })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>
