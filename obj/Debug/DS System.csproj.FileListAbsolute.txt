@@ -51,6 +51,8 @@ C:\Users\dani_\source\repos\DS System\bin\roslyn\vbc.rsp
 C:\Users\dani_\source\repos\DS System\bin\roslyn\VBCSCompiler.exe
 C:\Users\dani_\source\repos\DS System\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\dani_\source\repos\DS System\bin\Antlr3.Runtime.dll
+C:\Users\dani_\source\repos\DS System\bin\EntityFramework.dll
+C:\Users\dani_\source\repos\DS System\bin\EntityFramework.SqlServer.dll
 C:\Users\dani_\source\repos\DS System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\dani_\source\repos\DS System\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\dani_\source\repos\DS System\bin\Newtonsoft.Json.dll
@@ -62,6 +64,8 @@ C:\Users\dani_\source\repos\DS System\bin\System.Web.WebPages.Deployment.dll
 C:\Users\dani_\source\repos\DS System\bin\System.Web.WebPages.dll
 C:\Users\dani_\source\repos\DS System\bin\System.Web.WebPages.Razor.dll
 C:\Users\dani_\source\repos\DS System\bin\WebGrease.dll
+C:\Users\dani_\source\repos\DS System\bin\EntityFramework.xml
+C:\Users\dani_\source\repos\DS System\bin\EntityFramework.SqlServer.xml
 C:\Users\dani_\source\repos\DS System\bin\System.Web.Helpers.xml
 C:\Users\dani_\source\repos\DS System\bin\System.Web.Mvc.xml
 C:\Users\dani_\source\repos\DS System\bin\System.Web.Optimization.xml
@@ -83,8 +87,3 @@ C:\Users\dani_\source\repos\DS System\obj\Debug\DS System.csproj.CoreCompileInpu
 C:\Users\dani_\source\repos\DS System\obj\Debug\DS System.csproj.CopyComplete
 C:\Users\dani_\source\repos\DS System\obj\Debug\DS System.dll
 C:\Users\dani_\source\repos\DS System\obj\Debug\DS System.pdb
-C:\Users\dani_\source\repos\DS System\bin\EntityFramework.dll
-C:\Users\dani_\source\repos\DS System\bin\EntityFramework.SqlServer.dll
-C:\Users\dani_\source\repos\DS System\bin\EntityFramework.xml
-C:\Users\dani_\source\repos\DS System\bin\EntityFramework.SqlServer.xml
-C:\Users\dani_\source\repos\DS System\obj\Debug\DS System.csproj.AssemblyReference.cache

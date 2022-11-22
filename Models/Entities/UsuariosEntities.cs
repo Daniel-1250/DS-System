@@ -5,9 +5,9 @@ using System.Web;
 
 namespace DS_System.Models.Entities
 {
-    public class Usuarios
+    public class UsuariosEntities
     {
-        public string Email { get; set; }
+        public string UserName { get; set; }
         public string Password { get; set; }
     }
 }

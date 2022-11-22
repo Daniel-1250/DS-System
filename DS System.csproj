@@ -138,7 +138,7 @@
     <Compile Include="Models\Clasificacion.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\Entities\Usuarios.cs" />
+    <Compile Include="Models\Entities\UsuariosEntities.cs" />
     <Compile Include="Models\Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

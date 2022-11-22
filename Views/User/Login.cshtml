@@ -1,4 +1,4 @@
-﻿@model DS_System.Models.Entities.Usuarios
+﻿@model DS_System.Models.Entities.UsuariosEntities
 
 @{
     Layout = null;
@@ -41,8 +41,8 @@
                                         <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Entra con tu cuenta</h5>
 
                                         <div class="form-outline mb-4">
-                                            @Html.TextBoxFor(model => model.Email, new { @class = "form-control form-control-lg", required = " " })
-                                            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                            @Html.TextBoxFor(model => model.UserName, new { @class = "form-control form-control-lg", required = " " })
+                                            @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
                                             <label class="form-label">Usuario</label>
                                         </div>
 

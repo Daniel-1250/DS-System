@@ -17,13 +17,14 @@
 
 </head>
 <body>
+
     <section class="vh-100" style="background-color: #CFD8DC">
         <div class="container py-5 h-100">
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col col-xl-12">
                     <div class="card" style="border-radius: 1rem;">
                         <p>
-                            @Html.ActionLink("Create New", "Create")
+                            <button type="button" class="btn btn-outline-primary" onclick="location.href='@Url.Action("Create")'">Crear Nuevo</button>
                         </p>
                         <table id="dtArtiulo" class="table table-striped" style="width: 100%;">
                             <thead>

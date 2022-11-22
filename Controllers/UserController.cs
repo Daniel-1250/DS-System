@@ -1,4 +1,5 @@
-﻿using DS_System.Models.Entities;
+﻿using DS_System.Functions;
+using DS_System.Models.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,7 @@ namespace DS_System.Controllers
     [AllowAnonymous]
     public class UserController : Controller
     {
+        LoginFuncion servicio = new LoginFuncion();
         [HttpGet]
         public ActionResult Login()
         {
@@ -17,14 +19,14 @@ namespace DS_System.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Login(Usuarios usuarios)
+        public ActionResult Login(UsuariosEntities usuarios)
         {
             string mensaje = "";
             if (ModelState.IsValid)
             {
-                if (Functions.LoginFuncion.ValidarLogin(usuarios))
+                if (servicio.ValidarLogin(usuarios))
                 {
-                    Session["SessionAdmin"] = usuarios.Email;
+                    Session["SessionAdmin"] = usuarios.UserName;
                     return RedirectToAction("Index", "Productos");
                 }
                 else

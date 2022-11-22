@@ -3,15 +3,18 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using DS_System.Models;
 
 namespace DS_System.Functions
 {
     public class LoginFuncion
     {
-        public static bool ValidarLogin(Usuarios usuario)
+        puntoDeventaEntities puntoDeventa = new puntoDeventaEntities();
+        public bool ValidarLogin(UsuariosEntities usuario)
         {
             bool respuesta = false;
-            if (usuario.Email.Equals("onlydan") && usuario.Password.Equals("150921"))
+            Usuarios user = puntoDeventa.Usuarios.FirstOrDefault(x => x.Usuario == usuario.UserName && x.Password == usuario.Password);
+            if (user != null)
             {
                 respuesta = true;
             }
