@@ -87,3 +87,4 @@ C:\Users\dani_\source\repos\DS System\bin\EntityFramework.dll
 C:\Users\dani_\source\repos\DS System\bin\EntityFramework.SqlServer.dll
 C:\Users\dani_\source\repos\DS System\bin\EntityFramework.xml
 C:\Users\dani_\source\repos\DS System\bin\EntityFramework.SqlServer.xml
+C:\Users\dani_\source\repos\DS System\obj\Debug\DS System.csproj.AssemblyReference.cache
