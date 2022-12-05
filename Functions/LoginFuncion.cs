@@ -13,7 +13,7 @@ namespace DS_System.Functions
         public bool ValidarLogin(UsuariosEntities usuario)
         {
             bool respuesta = false;
-            Usuarios user = puntoDeventa.Usuarios.FirstOrDefault(x => x.Usuario == usuario.UserName && x.Password == usuario.Password);
+            Usuarios user = puntoDeventa.Usuarios.FirstOrDefault(x => x.User_Name == usuario.UserName && x.Password == usuario.Password);
             if (user != null)
             {
                 respuesta = true;

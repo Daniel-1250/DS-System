@@ -12,23 +12,18 @@ namespace DS_System.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Usuarios
+    public partial class Roles
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Usuarios()
+        public Roles()
         {
-            this.Ventas = new HashSet<Ventas>();
+            this.Usuarios = new HashSet<Usuarios>();
         }
     
-        public int IdUsuario { get; set; }
-        public string nombre { get; set; }
-        public string Apellido { get; set; }
-        public string User_Name { get; set; }
-        public string Password { get; set; }
         public int idRol { get; set; }
+        public string Descripcion { get; set; }
     
-        public virtual Roles Roles { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Ventas> Ventas { get; set; }
+        public virtual ICollection<Usuarios> Usuarios { get; set; }
     }
 }

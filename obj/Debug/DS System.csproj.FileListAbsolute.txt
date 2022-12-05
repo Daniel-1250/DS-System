@@ -87,3 +87,4 @@ C:\Users\dani_\source\repos\DS System\obj\Debug\DS System.csproj.CoreCompileInpu
 C:\Users\dani_\source\repos\DS System\obj\Debug\DS System.csproj.CopyComplete
 C:\Users\dani_\source\repos\DS System\obj\Debug\DS System.dll
 C:\Users\dani_\source\repos\DS System\obj\Debug\DS System.pdb
+C:\Users\dani_\source\repos\DS System\obj\Debug\DS System.csproj.AssemblyReference.cache
